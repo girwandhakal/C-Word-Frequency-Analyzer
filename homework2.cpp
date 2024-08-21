@@ -1,11 +1,3 @@
-/*
- Name: Girwan Dhakal
- Email: gdhakal@crimson.ua.edu
- Course Section: Fall 2023 CS 201
- Homework #:2
- To Compile: g++ homework2.cpp
- To Run: .\a.exe < input.txt > output.txt
-*/
 
 #include<iostream>
 #include<vector>
@@ -19,7 +11,6 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    // auto start = chrono::system_clock::now();
     std::string text;
     map<string,int> tokens; 
     vector<pair<string,int>> items;
@@ -54,8 +45,5 @@ int main(int argc, char* argv[])
     {
         cout << x.first << ": " << x.second << endl; // outputs the contents of the sorted array
     }
-    // auto end = chrono::system_clock::now();
-    // auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
-    // cout << "Time Taken: " << duration.count() << endl;
-    // cout << "Number of words: " << wordCount << endl;
+
 }
